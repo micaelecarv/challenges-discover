@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #BB99DD;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    --font-family: 'Roboto', sans-serif;}
+
+body {
+    background: var(--body-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /* ***********************Header**************************** */
+  
+  header {
+      margin-top: 5.5rem;
+  }
+  #UserImage {
+    height: 12.5rem;
+    width: 13rem;
+    border-radius: 50%;
+    border: 0.3rem solid #BB99DD;
+    padding: 0.3rem;
+  }
+  
+  header a {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+
+    font-weight: bold;
+  }
+  
+  /* ***********************Links**************************** */
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .links a {
+    border: 0.1rem solid #BB99DD;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    text-align: center;
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+  }
+  
+  
+  .border:hover {
+  background: var(--purple);
+  background: var(--body-bg-color);
+}
+  
+  
+  /* ***********************Icons**************************** */
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .social-icons a {
+  margin: 0 0.5rem;
+  }
